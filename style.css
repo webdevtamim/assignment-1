@@ -104,6 +104,7 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 32px;
+    display: flex;
 }
 .featured-img-2{
     padding: 117px 47px 51px;
@@ -112,10 +113,11 @@
     margin-bottom: 32px;
 }
 .featured-img-3{
-    padding: 67px 75px 0px;
+    padding: 67px 75px 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-bottom: 32px;
+    display: flex;
 }
 .featured-img span{
     color: #272727;
