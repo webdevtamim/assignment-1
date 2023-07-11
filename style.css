@@ -57,16 +57,63 @@
     height: 600px;
 }
 
+/*Featured style*/
+.featured{
+    margin: 0 240px;
+}
+.featured-container{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+.featured-container p{
+    padding: 24px 0 48px;
+    width: 600px;
+    margin: auto;
+}
+.featured-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.featured-img-1{
+    padding: 110px 78px 0 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
 /* Hot deal */
 .hot-deal{
     background-color: rgba(229, 84, 115, 0.05);
+    margin: 128px 0;
+    padding: 100px 0;
 }
 .hot-deal-row{
     width: 1440px;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
-
+.hot-deal-col-a{
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+.hot-deal-col-a p{
+    padding: 24px 0 32px;
+    width: 600px;
+    margin: auto;
+}
+.hot-deal-col-b{
+    width: 50%;
+    text-align: center;
+}
+.hot-deal-col-b img{
+    width: 318px;
+    height: 420px;
+}
 
 /*Social section style*/
 .social{
@@ -78,7 +125,7 @@
     text-align: center;
 }
 .social-container p{
-    padding: 16px 0 48px;
+    padding: 24px 0 48px;
     width: 600px;
     margin: auto;
 }
