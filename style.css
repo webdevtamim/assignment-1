@@ -27,6 +27,18 @@
     border-radius: 8px;
     background: #E55473;
     border: none;
+    transition-duration: 0.7s;
+}
+.dft-btn:hover{
+    color: #E55473;
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px rgba(229, 84, 115, 0.99);
+}
+.dft-btn,
+.featured-img span,
+.social-img img,
+.footer-container .other-heading{
+    cursor: pointer;
 }
 
 /* Header style */
@@ -113,6 +125,13 @@
     text-decoration-line: underline;
     font-weight: 900;
 }
+.featured-img-1:hover,
+.featured-img-2:hover,
+.featured-img-3:hover{
+    cursor: none;
+    box-shadow: 0 0 20px 10px rgba(229, 84, 115, 0.1);
+    transition-duration: 0.3s;
+}
 
 /*optional section*/
 .optional{
@@ -189,6 +208,13 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+.social-img img{
+    box-shadow: 0 0 30px 5px rgba(229, 84, 115, 0.15);
+    transition-duration: 1s;
+}
+.social-img img:hover{
+    transform: scale(1.03, 1.03);
 }
 
 /*Latest deals section style*/
