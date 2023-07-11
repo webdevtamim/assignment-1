@@ -114,6 +114,27 @@
     font-weight: 900;
 }
 
+/*optional section*/
+.optional{
+    width: 1440px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 86px 0 87px;
+}
+.optional-col{
+    text-align: center;
+}
+.optional p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
 /* Hot deal */
 .hot-deal{
     background-color: rgba(229, 84, 115, 0.05);
